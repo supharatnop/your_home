@@ -2,60 +2,60 @@ import 'package:flutter/material.dart';
 import 'package:home_demo/components/com_color.dart';
 
 class ComFontStyle {
-  static final light14 = TextStyle(
+  static var light14 = const TextStyle(
     fontFamily: "Kanit",
     fontWeight: FontWeight.w300,
     fontSize: 14,
     color: comPrimaryColor,
   );
 
-  static final light16 = TextStyle(
+  static var light16 = const TextStyle(
     fontFamily: "Kanit",
     fontWeight: FontWeight.w300,
     fontSize: 16,
     color: comPrimaryColor,
   );
-  static final light18 = TextStyle(
+  static var light18 = const TextStyle(
     fontFamily: "Kanit",
     fontWeight: FontWeight.w300,
     fontSize: 18,
     color: comPrimaryColor,
   );
 
-  static final regular14 = TextStyle(
+  static var regular14 = const TextStyle(
     fontFamily: "Kanit",
     fontWeight: FontWeight.w400,
     fontSize: 14,
     color: comPrimaryColor,
   );
 
-  static final regular16 = TextStyle(
+  static var regular16 = const TextStyle(
     fontFamily: "Kanit",
     fontWeight: FontWeight.w400,
     fontSize: 16,
     color: comPrimaryColor,
   );
-  static final regular18 = TextStyle(
+  static var regular18 = const TextStyle(
     fontFamily: "Kanit",
     fontWeight: FontWeight.w400,
     fontSize: 18,
     color: comPrimaryColor,
   );
 
-  static final medium14 = TextStyle(
+  static var medium14 = const TextStyle(
     fontFamily: "Kanit",
     fontWeight: FontWeight.w500,
     fontSize: 14,
     color: comPrimaryColor,
   );
 
-  static final medium16 = TextStyle(
+  static var medium16 = const TextStyle(
     fontFamily: "Kanit",
     fontWeight: FontWeight.w500,
     fontSize: 16,
     color: comPrimaryColor,
   );
-  static final medium18 = TextStyle(
+  static var medium18 = const TextStyle(
     fontFamily: "Kanit",
     fontWeight: FontWeight.w500,
     fontSize: 18,

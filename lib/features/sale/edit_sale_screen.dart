@@ -9,14 +9,14 @@ import 'package:home_demo/components/com_text_formfield.dart';
 import 'package:home_demo/components/com_validator.dart';
 import 'package:image_picker/image_picker.dart';
 
-class SaleScreen extends StatefulWidget {
-  const SaleScreen({super.key});
+class EditSaleScreen extends StatefulWidget {
+  const EditSaleScreen({super.key});
 
   @override
-  State<SaleScreen> createState() => _SaleScreenState();
+  State<EditSaleScreen> createState() => EditSaleScreenState();
 }
 
-class _SaleScreenState extends State<SaleScreen> {
+class EditSaleScreenState extends State<EditSaleScreen> {
   final ImagePicker _picker = ImagePicker();
   final _formKey = GlobalKey<FormState>();
 
@@ -39,7 +39,7 @@ class _SaleScreenState extends State<SaleScreen> {
           child: Column(
             children: [
               ComAppbar(
-                text: "เพิ่มข้อมูลการขาย",
+                text: "แก้ไขข้อมูลการขาย",
                 onPop: () => Navigator.pop(context),
               ),
               Expanded(

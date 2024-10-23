@@ -49,7 +49,7 @@ class _MyPostHomePageState extends State<MyPostHomePage> {
             )
           : null,
       body: Container(
-        padding: const EdgeInsets.only(left: 24, right: 23, bottom: 31),
+        padding: const EdgeInsets.only(left: 24, right: 23),
         child: Column(
           children: [
             const SizedBox(height: 12),

@@ -55,8 +55,7 @@ class _MainDetailScreenState extends State<MainDetailScreen> {
               ),
               Expanded(
                 child: Padding(
-                  padding:
-                      const EdgeInsets.only(left: 24, right: 24, bottom: 32),
+                  padding: const EdgeInsets.only(left: 24, right: 24),
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
@@ -356,6 +355,7 @@ class _MainDetailScreenState extends State<MainDetailScreen> {
                             )
                           ],
                         ),
+                        const SizedBox(height: 32),
                       ],
                     ),
                   ),

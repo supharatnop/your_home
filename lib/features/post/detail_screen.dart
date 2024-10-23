@@ -5,7 +5,7 @@ import 'package:home_demo/components/com_color.dart';
 import 'package:home_demo/components/com_font_style.dart';
 import 'package:home_demo/components/com_shape_circle.dart';
 import 'package:home_demo/components/com_shape_circle_location.dart';
-import 'package:home_demo/features/sale/sale_screen.dart';
+import 'package:home_demo/features/sale/edit_sale_screen.dart';
 
 class DetailScreen extends StatefulWidget {
   const DetailScreen({super.key});
@@ -43,7 +43,7 @@ class DetailScreenState extends State<DetailScreen> {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => const SaleScreen(),
+              builder: (context) => const EditSaleScreen(),
             ),
           );
         },
@@ -65,8 +65,7 @@ class DetailScreenState extends State<DetailScreen> {
               ),
               Expanded(
                 child: Padding(
-                  padding:
-                      const EdgeInsets.only(left: 24, right: 24, bottom: 32),
+                  padding: const EdgeInsets.only(left: 24, right: 24),
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
@@ -314,6 +313,7 @@ class DetailScreenState extends State<DetailScreen> {
                             )
                           ],
                         ),
+                        const SizedBox(height: 32),
                       ],
                     ),
                   ),
